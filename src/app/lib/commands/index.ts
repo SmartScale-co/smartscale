@@ -9,13 +9,19 @@ import registry from './registry';
 // Import command types
 export * from './types';
 
-// SmartScale Business Commands
-import './business/about';    // About SmartScale.co
-import './business/invest';   // Investment model
-import './business/contact';  // Contact information
+// Import and register business commands
+import { aboutCommand } from './business/about';
+import { investCommand } from './business/invest';
+import { contactCommand } from './business/contact';
 
-// System Commands
-import './system/help';       // Help command (following leading practice)
+// Import and register system commands
+import { helpCommand } from './system/help';
+
+// Register all commands
+registry.register(aboutCommand);
+registry.register(investCommand);
+registry.register(contactCommand);
+registry.register(helpCommand);
 
 // Export the registry for use in the application
 export default registry;

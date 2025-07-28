@@ -6,7 +6,7 @@ export const helpCommand: Command = {
   description: 'Display available commands',
   usage: 'help',
   category: 'system',
-  execute: async (args: Record<string, any>, options: CommandOptions = {}): Promise<CommandResponse> => {
+  execute: async (options: CommandOptions): Promise<CommandResponse> => {
     const commands = registry.getAllCommands();
     
     const helpText = `📋 **Available Commands**\n\n` +
