@@ -22,14 +22,13 @@ export interface CommandResponse {
   success: boolean;
   message: string;
   data?: any;
-  error?: string;
 }
 
 /**
  * Command execution options
  */
 export interface CommandOptions {
-  onProgress?: (update: any) => void;
+  args?: string[];
 }
 
 /**
@@ -39,11 +38,8 @@ export interface Command {
   name: string;
   description: string;
   usage: string;
-  category?: string;
-  args?: CommandArg[];
-  execute: (args: Record<string, any>, options?: CommandOptions) => Promise<CommandResponse>;
-  validate?: (args: Record<string, any>) => boolean;
-  suggestions?: (currentWord: string) => string[];
+  category: string;
+  execute: (options: CommandOptions) => Promise<CommandResponse>;
 }
 
 /**
