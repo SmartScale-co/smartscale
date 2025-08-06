@@ -8,7 +8,7 @@ export const contactCommand: Command = {
   execute: async (options: CommandOptions): Promise<CommandResponse> => {
     return {
       success: true,
-      message: `📧 **Contact SmartScale**\n\nIf you're ready to build the future of SaaS—where entrepreneur+AI meets real operational support—let's talk.\n\n**Email:** neo@smartscale.co\n**Website:** smartscale.co`,
+      message: `📧 **Contact SmartScale**\n\nIf you're ready to 'scale smart', let's talk.\n\n**Email:** neo@smartscale.co \n**Website:** smartscale.co`,
       data: null
     };
   }
