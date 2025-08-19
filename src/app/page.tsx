@@ -3,17 +3,16 @@ import Terminal from '@/app/components/terminal/Terminal';
 export default function Home() {
   const welcomeMessage = `Welcome to SmartScale! 🚀
 
-SmartScale is a SaaS command center for implementing transformative projects and solutions.
+Executive-grade M&A & territorial intelligence — faster, auditable decisions.
 
-For over eight years we've leveraged hands-on experience as SaaS operators to deliver M&A integrations, revenue-operations solutions, CRM-to-scalable-ERP integrations, and GAAP accounting implementations—often in a private equity context.
+I’m a solopreneur operator building narrow M&A micro‑SaaS and consulting directly with CEOs to speed deals and reduce execution risk.
 
-We've evolved our back-office tooling and tailor solutions within client ecosystems that "scale smart" to maximize exit valuation.
+• Faster go/no‑go decisions for M&A and divestiture
+• Turnkey, auditable reports and secure CLI workflows
 
-More recently we've perfected enterprise-grade FIM and private LLM solution workflows, all developed in our purpose-built, secure command-center private office.
+Working directly with owners and executive leaders, we engineer solutions from the ground up with enterprise-grade security and operational rigor.
 
-Working directly with owners and executive leaders, we ensure projects are engineered from the ground up with the highest quality code and security standards in a command-driven environment.
-
-Type $help to see available commands.`;
+Type $help to explore the CLI or email neo@smartmarkets.co to schedule a 10‑minute briefing.`;
 
   return (
     <div className="min-h-screen bg-black text-green-400 font-mono">
