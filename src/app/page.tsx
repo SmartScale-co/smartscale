@@ -3,7 +3,15 @@ import Terminal from '@/app/components/terminal/Terminal';
 export default function Home() {
   const welcomeMessage = `Welcome to SmartScale! 🚀
 
-SmartScale is a SaaS Command Center for implementing tranformative projects/solutions.  For the past eight years we have leverged our hands-on exerience as SaaS operators to deliver M&A integrations, rev ops solutions, wiring CRM to scalable ERP and GAAP accounting solutions, usually in a PE context. We have evolved our backoffice tooling, and we tailor solutions inside client ecosystems that 'scale smart', towards maximizing exit valuation.  More recently we have perfected our capability for enterprise grade FIM and private LLM solutioning workflow, all developed in our purpose-built secure command center office.  Working directly with owners and exec decision makers, we assure clients their project are enginnered from ground up with highest quality code and security,in a command-driven envirenment. 
+SmartScale is a SaaS command center for implementing transformative projects and solutions.
+
+For over eight years we've leveraged hands-on experience as SaaS operators to deliver M&A integrations, revenue-operations solutions, CRM-to-scalable-ERP integrations, and GAAP accounting implementations—often in a private equity context.
+
+We've evolved our back-office tooling and tailor solutions within client ecosystems that "scale smart" to maximize exit valuation.
+
+More recently we've perfected enterprise-grade FIM and private LLM solution workflows, all developed in our purpose-built, secure command-center private office.
+
+Working directly with owners and executive leaders, we ensure projects are engineered from the ground up with the highest quality code and security standards in a command-driven environment.
 
 Type $help to see available commands.`;
 
