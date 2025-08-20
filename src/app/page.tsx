@@ -5,11 +5,11 @@ export default function Home() {
 
 Executive-grade M&A support & territorial intelligence — faster, auditable decisions.
 
-I’m a solopreneur operator building narrow M&A micro‑SaaS and consulting directly with CEOs to speed deals and reduce execution risk.
+I’m ex-Goldman, Booth educated, PE operator with hoppital transactions experience, building M&A analyits SaaS, and consulting directly with CEOs to speed deals and reduce execution risk.
 
 • Faster go/no‑go decisions for M&A and divestiture
-• Turnkey, auditable reports and secure CLI workflows
-• Post-M&A integration support
+• Turnkey, national comparative catchment metrics via secure CLI workflows
+• Due Diligence and Post-M&A patient flow studies.
 
 Working directly with owners and executive leaders, we engineer solutions from the ground up with enterprise-grade security and operational rigor.
 
